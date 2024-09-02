@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:aliceblue;
+    padding: 20px;
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+li {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    justify-content:space-between;
+    
+}
+
+button.realizada {
+    background-color: #49d54e;
+    color: white;
+}
+
+button.eliminar {
+    background-color: #fb2617;
+    color: white;
+}
